@@ -75,8 +75,12 @@
       <div>		  
 		<input type="checkbox" id="Saturday" name="available_field[]" value="Saturday"/>
 		<label for="Saturday">Saturday</label>
-	  </div>	
-		</select>  
+	  </div>
+	  <div>
+	    <label for="Comment">Any Comments?</label>
+		<div>
+		<textarea name="comments_field" cols="20" rows="20" placeholder="Type in Comment here: "/></textarea>
+		</div>
       </div>
 	</fieldset>  
 	</form>
