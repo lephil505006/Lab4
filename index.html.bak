@@ -5,6 +5,8 @@
     <title>Lab 4 Forms</title>
   </head>
   <body>
-	<form></form>
+    <h1>Volunteer Form</h1>
+	<form method = "POST" action = "http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" >
+	</form>
   </body>
 </html>
