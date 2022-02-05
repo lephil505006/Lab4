@@ -9,6 +9,7 @@
 	<form method="POST" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
 	<div class="First_Name">
       <label for="FirstName">First name:</label>
+	  <input type="text" id="FirstName" name="first_name_field" placeholder="Type first name" />
     </div>
 	</form>
   </body>
