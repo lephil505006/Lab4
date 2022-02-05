@@ -7,10 +7,16 @@
   <body>
     <h1>Volunteer Form</h1>
 	<form method="POST" action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php">
-	<div class="First_Name">
-      <label for="FirstName">First name:</label>
-	  <input type="text" id="FirstName" name="first_name_field" placeholder="Type first name" />
-    </div>
+	<fieldset>
+	  <div class="First_Name">
+        <label for="FirstName">First name:</label>
+	    <input type="text" id="FirstName" name="first_name_field" placeholder="Type in first name" />
+      </div>
+	  <div class="Last_Name">
+        <label for="LastName">Last name:</label>
+	    <input type="text" id="LastName" name="last_name_field" placeholder="Type in last name" />
+      </div>
+	</fieldset>  
 	</form>
   </body>
 </html>
