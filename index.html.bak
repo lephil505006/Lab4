@@ -27,13 +27,13 @@
       </div>
 	  <div class="Gender">
         <label for="Gender">Gender:</label>
-		<label for="Male">Male:</label>
-	    <input type="radio" id="Male" name="gender_field" value="Male"/>
-		<label for="Female">Female:</label>
-	    <input type="radio" id="Female" name="gender_field" value="Female"/>
+		<label for="Gender">Male:</label>
+	    <input type="radio" id="Gender" name="gender_field" value="Male"/>
+		<label for="Gender">Female:</label>
+	    <input type="radio" id="Gender" name="gender_field" value="Female"/>
       </div>
 	  <div class="Age">
-        <label>Age:</label>
+        <label for="Age">Age:</label>
 		<select name="age_field">
 		  <option value="(<18)">Under 18</option>
 		  <option value="(18-24)">18 - 24</option>
@@ -48,7 +48,7 @@
 	<fieldset>  
 	  <legend><b>My Availability</b></legend>
 	  <div class="Age">
-        <label>Days Availible:</label>
+        <label for="DaysAvaliable">Days Availible:</label>
 	  </div> 	 
 	  <div>	
 	    <input type="checkbox" id="Sunday" name="available_field[]" value="Sunday"/>
@@ -79,9 +79,9 @@
 		<label for="Saturday">Saturday</label>
 	  </div>
 	  <div>
-	    <label>Any Comments?</label>
+	    <label for="Comment">Any Comments?</label>
 		<div>
-		  <textarea name="comments_field" cols="40" rows="10" placeholder="Type in Comment here: "/>
+		  <textarea name="comments_field" cols="40" rows="10" placeholder="Type in Comment here: "/></textarea>
 		</div>
       </div>
 	</fieldset>  
