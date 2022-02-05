@@ -82,7 +82,7 @@
 	  <div>
 	    <label>Any Comments?</label>
 		<div>
-		  <textarea name="comments_field" cols="40" rows="10" placeholder="Type in Comment here: "/>
+		  <textarea name="comments_field" cols="40" rows="10" placeholder="Type in Comment here:" />
 		</div>
       </div>
 	</fieldset>  
