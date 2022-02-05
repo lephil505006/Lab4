@@ -43,8 +43,11 @@
 		  <option value="(>65)">Over 65</option>
 		</select>  
       </div>
+	</fieldset>
+	<fieldset>  
 	  <div class="Age">
         <label for="DaysAvaliable">Days Availible:</label>
+	  </div> 	 
 	  <div>	
 	    <input type="checkbox" id="Sunday" name="available_field[]" value="Sunday"/>
 		<label for="Sunday">Sunday</label>
@@ -64,6 +67,7 @@
 	  <div>	
 		<input type="checkbox" id="Thursday" name="available_field[]" value="Thursday"/>
 		<label for="Thursday">Thursday</label>
+	  </div>	
 	  <div>		
 		<input type="checkbox" id="Friday" name="available_field[]" value="Friday"/>
 		<label for="Friday">Friday</label>
